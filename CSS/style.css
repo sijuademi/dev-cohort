@@ -4,3 +4,613 @@
 /* Partials */
 @import url(/PARTIALS/_variables.css);
 
+/* Gloabal css */
+@import url(/PARTIALS/_global.css);
+
+/* Start header area */
+header{
+    height: 82px!important;
+}
+header .logo{
+    padding-left: 12.5rem;
+}
+header .navy{
+    padding-left: 1.5rem;
+}
+header .navbar .nav-item .nav-link.active{
+    font-family: var(--montserrat);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 80px;
+    color: var(--tertiary-color)!important;
+}
+.contact {
+    padding-right: 12rem;
+}
+.contact h3{
+    font-size: 16px;
+    font-family: var(--montserrat);
+    font-weight: 700;
+    align-self: center;
+}
+
+.contact .btn-1{
+    font-family: var(--montserrat);
+    align-self: center;
+    background-color: var(--primary-color);
+}
+/* end header area */
+
+/* Start hero area */
+.hero{
+    padding-top: 10rem;
+}
+.hero h1{
+    font: normal 900 50px/53px var(--montserrat);
+    color: var(--tertiary-color);
+}
+.hero p{
+    font: normal 700 18px/27px var(--montserrat);
+    color: var(--secondary-color);
+}
+.hero .btn{
+    font-family: var(--montserrat);
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--primary-color);
+}
+.hero .btn + .btn{
+    box-shadow: var(--box-shadow);
+    background-color: var(--button-background);
+    color: var(--secondary-color);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 200px;
+}
+/* End hero area */
+
+/* start logo area */
+.logo h3{
+    font: normal 600 15px/27px var(--montserrat);
+    color: var(--semi-color);
+}
+.logo .logos{
+    width: 76.5%!important;
+}
+/* End logo area */
+
+/* Start about area */
+.about{
+    padding-top: 160px;
+    position: relative;
+    padding-bottom: 10rem;
+}
+.about h1{
+    font: normal 900 45px/60px var(--montserrat);
+    color: var(--tertiary-color);
+}
+.about-1{
+    padding-top: 4rem;
+}
+.woman{
+    position: absolute;
+    top: 10rem;
+    left: 21.5rem;
+}
+.rectangle{
+    position: absolute;
+    top: 39.5rem;
+    left: 41rem;
+    z-index: -1;
+}
+.man-2{
+    position: absolute;
+    top: 42rem;
+    left: 10.7rem;
+}
+.ellipse{
+    position: absolute;
+    top: 51rem;
+    z-index: -1;
+}
+.man-1{
+    position: absolute;
+    top: 50.2rem;
+    left: 24rem;
+}
+.vector{
+    position: absolute;
+    top: 63.7rem;
+    left: 34.7rem;
+    z-index: -1;
+}
+.about .right{
+    padding-top: 3.8rem;
+    padding-left: 13rem;
+    padding-right: 3rem;
+}
+.about .right div{
+    display: flex;
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+}
+.about .right div + div{
+    margin-top: 40px;
+}
+.about .right img{
+    padding-right: 3rem;
+}
+.about .right h4{
+    font: normal 900 20px/28px var(--montserrat);
+    color: var(--tertiary-color);
+}
+.about .right p{
+    font: normal 900 16px/28px var(--montserrat);
+    color: var(--secondary-color);
+}
+/* End about area */
+
+/* Portfolio area */
+.portfolio{
+    position: relative;
+    margin-top: 9rem;
+    padding-top: 9rem;
+    height: 63.6rem;
+    background-color: var(--portfolio-bg);
+}
+.portfolio h1{
+    font: normal 900 40px/60px var(--montserrat);
+    color: var(--tertiary-color);
+}
+.portfolio p{
+    font: normal 600 18px/32px var(--montserrat);
+    color: var(--tertiary-color);
+}
+.btn-4{
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    font-family: var(--montserrat);
+    background-color: var(--primary-color);
+}
+.six{
+    position: absolute;
+    top: 45rem;
+    left: 0;
+}
+.seven{
+    position: absolute;
+    top: 60.5rem;
+    left: 0;
+}
+.two{
+    position: absolute;
+    top: 36.5rem;
+    left: 18.5rem;
+}
+.eight{
+    position: absolute;
+    top: 52.1rem;
+    left: 18.5rem;
+}
+.three{
+    position: absolute;
+    top: 40rem;
+    left: 39rem;
+}
+.nine{
+    position: absolute;
+    top: 55.6rem;
+    left: 39rem;
+}
+.four{
+    position: absolute;
+    top: 43.7rem;
+    left: 59.5rem;
+}
+.ten{
+    position: absolute;
+    top: 59.2rem;
+    left: 59.5rem;
+}
+.five{
+    position: absolute;
+    top: 35rem;
+    right: 0;
+}
+.eleven{
+    position: absolute;
+    top: 50.5rem;
+    right: 0;
+}
+/* Portfolio area */
+
+/* Testimonial area */
+.testimonials{
+    padding-top: 14.5rem;
+}
+.testimonials h1{
+    font: normal 900 43px/55px var(--montserrat);
+    color: var(--tertiary-color);
+}
+.testimonials .flex > div{
+    width: 23.5rem;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: .3rem;
+}
+.testimonials .flex p:first-child{
+    font: normal 700 17px/32px var(--montserrat);
+    color: var(--secondary-color);
+}
+.testimonials .flex h3{
+    font: normal 900 20px/24px var(--montserrat);
+    color: var(--tertiary-color);
+}
+.testimonials .flex p:last-child{
+    font: normal 700 15px/25px var(--montserrat);
+    color: var(--secondary-color);
+}
+/* Testimonial area */
+
+/* CTA Area */
+.cta{
+    height: 20.2rem;
+    margin-top: 9.3rem;
+    background-color: var(--primary-color);
+}
+.cta .row{
+    padding-top: 6.9rem;
+}
+.cta h1{
+    font: normal 900 45px/53px var(--montserrat);
+    
+}
+.cta .right{
+    padding-left: 17.4rem;
+}
+.cta .right p{
+    font: normal 700 16px var(--montserrat);
+    color: var(--secondary-color);
+}
+.cta .btn-5{
+    width: 260px;
+    height: 58px;
+}
+.cta .btn-5 + p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #DFE0EB;
+}
+.cta span{
+    color: gold;
+}
+/* CTA Area */
+
+/* Footer area */
+footer{
+    padding-top: 7.63rem;
+}
+footer .digits img{
+    padding-bottom: 1.8rem;
+}
+footer .digits p{
+    padding-right: 14rem;
+    font: normal 700 16px/26px var(--montserrat);
+    color: var(--secondary-color);
+}
+footer .row h3{
+    padding-bottom: 1.6rem;
+    margin-bottom: 0;
+    font: normal 900 18px/27px var(--montserrat);
+    color: var(--tertiary-color);
+}
+footer ul{
+    padding-left: 0;
+}
+footer ul li:first-child{
+    padding-bottom: 7.5px;
+}
+
+footer a{
+    font: normal 600 16px/35px var(--montserrat);
+    color: var(--secondary-color);
+}
+footer .resources p{
+    margin-bottom: 0;
+}
+.resources .icons img{
+    padding-bottom: 1.6rem;
+    padding-right: 1.2rem;
+}
+footer .resources{
+    padding-left: 3rem;
+}
+.bottom{
+    padding-top: 3.63rem;
+    padding-bottom: 6.7rem;
+    margin-top: 4.8rem;
+}
+.bottom p{
+    font: normal 600 13px/27px var(--montserrat);
+}
+.left p{
+    color: var(--semi-color);
+}
+.right{
+    color: var(--secondary-color);
+}
+/* Footer area */
+@media only screen  and (max-width:1450px) {
+    .about-1 .right{
+        padding-left: 13rem;
+        padding-right: 4rem;
+    }
+    .woman{
+        left: 18rem;
+    }
+    .rectangle{
+        left: 37.5rem;
+    }
+    .man-2{
+        left: 7.2rem;
+    }
+    .ellipse{
+        left: 5rem;
+    }
+    .man-1{
+        left: 20.5rem;
+    }
+    .vector{
+        left: 31.2rem;
+    }
+    .portfolio{
+        height: 62.5rem;
+    }
+    .portfolio .one,
+    .portfolio .two,
+    .portfolio .three,
+    .portfolio .four,
+    .portfolio .six,
+    .portfolio .seven,
+    .portfolio .eight,
+    .portfolio .nine,
+    .portfolio .ten {
+      width: 310px;
+    } 
+    .testimonials .flex > div{
+        width: 21.2rem;
+    } 
+    footer .digits{
+        padding-left: 8rem;
+    }
+    footer .digits p{
+        padding-right: 6rem;
+    }
+    .six{
+        top: 44.5rem;
+    }
+    .seven{
+        top: 59.5rem;
+    }
+    .two{
+        top: 38.5rem;
+        left: 17.5rem;
+    }
+    .eight{
+        top: 52.5rem;
+        left: 17.5rem;
+    }
+    .three{
+        top: 42rem;
+        left: 35.5rem;
+    }
+    .nine{
+        left: 35.5rem;
+    }
+    .four{
+        top: 45rem;
+        left: 53rem;
+    }
+    .ten{
+        top: 58.7rem;
+        left: 53rem;
+    }
+    .five{
+        top: 33.8rem;
+    }
+    .eleven{
+        top: 49.5rem;
+    }
+}
+@media only screen  and (max-width:1050px){
+    header .logo{
+        padding-left: 3rem;
+    }
+    header .contact{
+        padding-right: 3rem;
+    }
+    .logo .logos{
+        width: 95%!important;
+    }
+    .portfolio h1{
+        font-size: 40px;
+    }
+    .woman{
+        width: 290px;
+        top: 15rem;
+        left: 13rem;
+    }
+    .rectangle{
+        width: 46px;
+        /* top: 36rem;
+        left: 27rem; */
+    }
+    .man-2{
+        width: 334px;
+        top: 37.5rem;
+        left: 5.2rem;
+    }
+    .ellipse{
+        width: 72.5px;
+        top: 44rem;
+        left: 4rem;
+    }
+    .man-1{
+        width: 143px;
+        top: 43rem;
+        left: 15rem;
+    }
+    .vector{
+        width: 46.2px;
+        top: 52.5rem;
+        left: 22.5rem;
+    }
+    .about-1 .right{
+        padding-left: 5rem;
+        padding-right: 1rem;
+    }
+    .portfolio{
+        height: 52.5rem;
+    }
+    .portfolio .one,
+    .portfolio .two,
+    .portfolio .three,
+    .portfolio .four,
+    .portfolio .five,
+    .portfolio .six,
+    .portfolio .seven,
+    .portfolio .eight,
+    .portfolio .nine,
+    .portfolio .ten,
+    .portfolio .eleven{
+        width: 220px;
+    }
+    .six{
+        top: 40rem;
+    }
+    .seven{
+        top: 50.5rem;
+    }
+    .two{
+        top: 35.5rem;
+        left: 12.5rem;
+    }
+    .eight{
+        top: 45.5rem;
+        left: 12.5rem;
+    }
+    .three{
+        top: 37.5rem;
+        left: 25rem;
+    }
+    .nine{
+        top: 47.7rem;
+        left: 25rem;
+    }
+    .four{
+        top: 40rem;
+        left: 37.5rem;
+    }
+    .ten{
+        top: 49.8rem;
+        left: 37.5rem;
+    }
+    .five{
+        top: 32rem;
+    }
+    .eleven{
+        top: 43.2rem;
+    }
+    .testimonials .container{
+        width: 95%!important;
+    }
+    .testimonials .flex > div{
+        width: 19rem;
+    }
+    .testimonials .flex > div .card-body{
+        padding: 1rem 0!important;
+    }
+    .cta .row{
+        padding-top: 3.5rem;
+    }
+    .cta .left{
+        padding-left: 0rem!important;
+    }
+    .cta .right{
+        padding-left: 7rem;
+    }
+    footer .digits{
+        padding-left: 0;
+    }
+    .bottom{
+        width: 95%!important;
+    }
+    
+}
+@media only screen  and (max-width:900px){
+    header .logo{
+        padding-left: 5rem;
+    }
+    header .navbar-toggler{
+        margin-right: 5rem;
+    }
+    .hero{
+        padding-top: 5rem;
+    }
+    .hero img{
+        width: 75%;
+    }
+    .logo .logos{
+        width: 76%!important;
+        display: grid!important;
+        grid-template-columns: auto auto auto;
+        row-gap: 3rem;
+    }
+    .about{
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+    .about .about-1{
+        flex-flow: column!important;
+    }
+    .woman{
+        width: initial;
+        top: 5rem;
+        left: 19rem;
+    }
+    .rectangle{
+        width: initial;
+        top: 34.5rem;
+        left: 38.5rem;
+    }
+    .man-2{
+        width: initial;
+        left: 8rem; 
+    }
+    .ellipse{
+        width: initial;
+        top: 47rem;
+        left: 6.5rem; 
+    }
+    .man-1{
+        width: initial;
+        top: 45.5rem;
+        left: 21.5rem;
+    }
+    .vector{
+        width: initial;
+        top: 58.8rem;
+        left: 32rem;
+    }
+    .about .about-1 .right{
+        margin-top: 45rem;
+        padding-right: 9rem;
+        padding-left: 9rem;
+    }
+    .cta .right{
+        padding-left: 0;
+    }
+}
+
+

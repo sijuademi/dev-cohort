@@ -24,28 +24,28 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="collapse navbar-collapse navy" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Homepages</a>
+                    <a class="nav-link active" aria-current="page" href="#">Homepages</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link active" href="#">Products</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Company<img src="./images/arrow-down.svg" alt="arrow down">
+                    <a class="nav-link active" href="#">Company<img class="ps-2" src="./images/arrow-down.svg" alt="arrow down">
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link active" href="#">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link active" href="#">Blog</a>
                   </li>
                 </ul>
                 <div class="navbar-text d-flex contact">
-                  <h3>+1234567890</h3>
-                  <button class="btn btn-1 btn-primary btn-lg">Contact us</button>
+                  <h3 class="pe-4">+00123456789</h3>
+                  <button class="btn btn-1 btn-primary px-3 py-2 rounded-pill">Contact us</button>
                 </div>
               </div>
             </div>
@@ -58,13 +58,13 @@
 
     <div class="hero">
         <h1 class="text-center">Good desing meets <br> great user experience</h1>
-        <p class="text-center">For everyone, from beginners to experts</p>
-        <div class="buttons w-25 mx-auto">
-            <button class="btn btn-primary btn-lg px-4">Buy digits</button>
-            <button class="btn btn-light btn-lg">See the features</button>
+        <p class="text-center py-4">For everyone, from beginners to experts</p>
+        <div class="buttons text-center mb-5 ">
+            <button class="btn btn-primary btn-lg me-3 px-auto py-3 rounded-pill">Buy digits</button>
+            <button class="btn btn-light btn-lg px-4 py-3 rounded-pill">See the features</button>
         </div>
-        <div class="graphic mx-auto w-75">
-            <img class="mx-auto ms-5 ps-3"  src="./images/banner-Graphic.svg" alt="banner">
+        <div class="graphic text-center">
+            <img class="ms-4 text-center"  src="./images/banner-Graphic.svg" alt="banner">
         </div>
 
     </div>
@@ -72,7 +72,7 @@
 
     <!-- ================================================ Start logo area ============================================================= -->
     <div class="logo">
-        <h3 class="text-center">Trusted by forward thinking software teams around the world</h3>
+        <h3 class="text-center mt-2 mb-5">Trusted by forward thinking software teams around the world</h3>
         <div class="logos container-fluid w-75 d-flex justify-content-between">
             <img src="./images/netflix.svg" alt="netflix">
             <img src="./images/drawkit.svg" alt="drawkit">
@@ -88,7 +88,7 @@
     <!-- ===================================================== Start about =================================================================== -->
 
     <div class="about">
-        <h1 class="text-center">Whatever work, <br> we're able to help</h1>
+        <h1 class="text-center">Whatever work you do, <br> we're able to help</h1>
         <div class="container">
             <div class="row about-1">
                 <div class="left col-lg-6 col-md-12 colo-sm-12">
@@ -106,8 +106,8 @@
                             <img src="./images/Icon-1.svg" alt="icon 1">
                         </span>
                         <span>
-                            <h4>Design and Assets</h4>
-                             <p>
+                            <h4 class="pb-3">Design and Assets</h4>
+                             <p class="pb-3">
                                  Make your brand stand out with <br> pixel-perfect design crafted to <br> perfection.
                              </p>
                         </span>
@@ -147,26 +147,30 @@
 
     <!-- ========================================================== Start portfolio area ====================================================== -->
 
-    <h1 class="text-center">Simplicity meets innovative design</h1>
-    <p class="text-center">
-        It's really easy start using Digits. <br>
-           Install the theme, choose a demo around <br>
-           start designing the future of your business!
-    </p>
-    <buton class="btn btn-4 btn-primary btn-lg px-4 text-center">Buy digits</buton>
-    <div class="images">
-        <img class="one" src="./images/browser.svg" alt="browser image">
-        <img class="two" src="./images/browser-1.svg" alt="browser image">
-        <img class="three" src="./images/browser-2.svg" alt="browser image">
-        <img class="four" src="./images/browser-3.svg" alt="browser image">
-        <img class="five" src="./images/browser-4.svg" alt="browser image">
-        <img class="six" src="./images/browser-5.svg" alt="browser image">
-        <img class="seven" src="./images/browser-6.svg" alt="browser image">
-        <img class="eight" src="./images/browser-7.svg" alt="browser image">
-        <img class="nine" src="./images/browser-8.svg" alt="browser image">
-        <img class="ten" src="./images/browser-9.svg" alt="browser image">
-        <img class="eleven" src="./images/browser-10.svg" alt="browser image">
-        
+    <div class="portfolio">
+        <h1 class="text-center pb-5">Simplicity meets innovative design</h1>
+        <p class="text-center">
+            It's really easy start using Digits. <br>
+               Install the theme, choose a demo around <br>
+               start designing the future of your business!
+        </p>
+        <div class="text-center py-4">
+            <button class="btn btn-4 btn-primary text-center rounded-pill">Buy digits</button>
+        </div>
+        <div class="images">
+            <img class="one" src="./images/browser.svg" alt="browser image">
+            <img class="two" src="./images/browser-1.svg" alt="browser image">
+            <img class="three" src="./images/browser-2.svg" alt="browser image">
+            <img class="four" src="./images/browser-3.svg" alt="browser image">
+            <img class="five" src="./images/browser-4.svg" alt="browser image">
+            <img class="six" src="./images/browser-5.svg" alt="browser image">
+            <img class="seven" src="./images/browser-6.svg" alt="browser image">
+            <img class="eight" src="./images/browser-7.svg" alt="browser image">
+            <img class="nine" src="./images/browser-8.svg" alt="browser image">
+            <img class="ten" src="./images/browser-9.svg" alt="browser image">
+            <img class="eleven" src="./images/browser-10.svg" alt="browser image">
+            
+        </div>
     </div>
 
     <!-- ========================================================== End portfolio area ====================================================== -->
@@ -174,13 +178,14 @@
     <!-- ============================================================= Start testimonial area ====================================================== -->
 
     <div class="testimonials">
+        <h1 class="text-center pb-5">What others are saying</h1>
         <div class="container w-75">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <div class="d-flex justify-content-between flex">
+                <div class="">
                     <div class="card-body text-center">
-                        <p class="card-title">Completely beautiful website and <br> amazing support! This is my second <br> website from this author and i love <br> both of the sites so much and she <br> has helped me so well when I <br> needed it!</p>
+                        <p class="card-title px-3 pt-4  text-start">Completely beautiful website and <br> amazing support! This is my second <br> website from this author and i love <br> both of the sites so much and she <br> has helped me so well when I <br> needed it!</p>
                     </div>
-                    <div class="card-img text-center">
+                    <div class="card-img text-center pt-5 pb-4">
                         <img src="./images/woman-image.svg" alt="woman">
                     </div>
                     <div class="card-text text-center">
@@ -188,11 +193,11 @@
                         <p>tempy.club</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="">
                     <div class="card-body text-center">
-                        <p class="card-title">Really easy to use and customize. <br> easy to understand. Darinka helped <br> me with my site! She answers very <br> quickly, a good service! Thank you <br> very much!</p>
+                        <p class="card-title px-3 pt-4 pb-3 text-start">Really easy to use and customize. <br> easy to understand. Darinka helped <br> me with my site! She answers very <br> quickly, a good service! Thank you <br> very much!</p>
                     </div>
-                    <div class="card-img text-center">
+                    <div class="card-img text-center pt-5 pb-4">
                         <img src="./images/man-image.svg" alt="man">
                     </div>
                     <div class="card-text text-center">
@@ -200,18 +205,18 @@
                         <p>tempy.club</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="">
                     <div class="card-body text-center">
-                        <p class="card-title">Really pleasing to look at! <br>
+                        <p class="card-title px-3 pt-4 pb-3 text-start">Really pleasing to look at! <br>
                             Documentation (including <br> installation instructions) are clear <br>
                             and that is coming from a relatively <br>
                             new wordpress user.    
                          </p>
                     </div>
-                    <div class="card-img text-center">
+                    <div class="card-img text-center pt-5 pb-4">
                         <img src="./images/lady-image.svg" alt="lady-image">
                     </div>
-                    <div class="card-text text-center">
+                    <div class="card-text text-center pb-4">
                         <h3>Happy User</h3>
                         <p>tempy.club</p>
                     </div>
@@ -224,23 +229,85 @@
 
     <!-- ============================================================== Start cta area ============================================================ -->
 
-    <div class="cta bg-primary">
+    <div class="cta">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 .left">
-                    <h1 class="ps-5">Ready to launch <br> your next website?</h1>
-                </div>
+            <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <button class="btn btn-5 btn-primary btn-lg d-flex align-items-center bg-white">
-                        <img src="./images/Group 17.svg" alt="mail">
-                        <p class="ps-4 py-auto">Get in touch now</p>
+                    <div class="mx-5 ps-4 left">
+                        <h1 class=" text-white">Ready to launch <br> your next website?</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 right">
+                    <button class="btn btn-5 btn-primary btn-lg d-flex align-items-center bg-white rounded-pill ms-5 mb-4">
+                        <img class="ps-2" src="./images/Group 17.svg" alt="mail">
+                        <p class="ps-4 pt-3">Get in touch now</p>
                     </button>
-                    <p>or, take a peek mark inside our  <span> design studio </span>
+                    <p class="">or, take a peek mark inside our  <span> design studio </span>
                 </div>
             </div>
         </div>
     </div>
     <!-- ============================================================== Start cta area ============================================================ -->
+
+    <!-- ============================================================== Start footer area ========================================================= -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-7 col-sm-12 digits">
+                    <img src="./images/logo.svg" alt="logo">
+                    <p>Digits is a website template built to  
+                     work seamlessly with the WordPress 
+                     block editor to create beautifully 
+                     designed pages in minutes.</p>
+                </div>
+                <div class="col-lg-2 col-md-5 col-sm-6 pages">
+                    <h3>Pages</h3>
+                    <ul class="">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 demos">
+                    <h3>Demos</h3>
+                    <ul>
+                        <li><a href="#">Classic</a></li>
+                        <li><a href="#">Boxy</a></li>
+                        <li><a href="#">Gradient</a></li>
+                        <li><a href="#">Minimal</a></li>
+                        <li><a href="#">Night</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 resources">
+                    <h3>Resources</h3>
+                    <div class="icons">
+                        <img src="./images/icon-facebook.svg" alt="facebook">
+                        <img src="./images/icon-instagram.svg" alt="instagram">
+                        <img src="./images/icon-twitter.svg" alt="twitter">
+                        <img src="./images/icon-dribbble.svg" alt="dribble">
+                        <img src="./images/icon-envato.svg" alt="envato">
+                    </div>
+                    <p ><a href="#">Download now</a></p> 
+                    <p class="pt-2"><a href="#">Documentation</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex bottom justify-content-between w-75 mx-auto border-top">
+            <div class="left">
+                <p>Copyright &copy; 2020 tempy.club</p>
+            </div>
+            <div class="right d-flex">
+                <p>Privacy Policy</p>
+                <p class="px-4">Terms of use</p>
+                <p>GDPR</p>
+            </div>
+            
+        </div>
+    </footer>
+    <!-- ============================================================== End footer area ========================================================= -->
 
 
     
