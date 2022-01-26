@@ -548,7 +548,7 @@ footer .resources{
     }
     
 }
-@media only screen  and (max-width:900px){
+@media only screen  and (max-width:768px){
     header .logo{
         padding-left: 5rem;
     }
@@ -608,9 +608,230 @@ footer .resources{
         padding-right: 9rem;
         padding-left: 9rem;
     }
+    .portfolio{
+        height: 95.2em;
+    }
+    .portfolio .one,
+    .portfolio .two,
+    .portfolio .three,
+    .portfolio .four,
+    .portfolio .five,
+    .portfolio .six,
+    .portfolio .seven,
+    .portfolio .eight,
+    .portfolio .nine,
+    .portfolio .ten,
+    .portfolio .eleven{
+        width: initial;
+        position: initial;
+    }
+    .portfolio .seven, .portfolio .nine, .portfolio .ten{
+        display: none;
+    }
+    .one{
+        padding-left: 2rem;
+    }
+    .six{
+        padding-left: 5rem;
+    }
+    .eight{
+        padding-top: 1.5rem;
+    }
+    .testimonials{
+        padding-top: 8rem;
+    }
+    .testimonials .flex > div{
+        width: 17rem!important;
+    }
+    .card-3 .card-img{
+        padding-top: 6.5rem!important;
+    }
+    /* .card-2{
+        margin: 0 1rem;
+    } */
+    .card-2 .card-img{
+        padding-top: 5rem!important;
+    }
     .cta .right{
         padding-left: 0;
     }
+    .digits{
+        padding-left: 5rem!important;
+    } 
+    footer .pages{
+        flex: 20%!important;
+    }
+    .demos{
+        padding-left: 5rem;
+    }
+    footer .resources{
+        padding-left: 9rem!important;
+    }
+    footer .bottom{
+        width: 76%!important;
+    }
+}
+@media only screen  and (max-width:425px){
+    header .logo{
+        padding-left: 2rem;
+    }
+    header .navbar-toggler{
+        margin-right: 2rem;
+    }
+    .hero{
+        padding-top: 3rem;
+    }
+    .hero h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .hero img{
+        margin-left: 1rem!important;
+    }
+    .buttons{
+        width: 13rem;
+        margin: auto;
+    }
+    .btn-2{
+        margin-right: 0!important;
+        margin-left: 1.7rem;
+        margin-bottom: 1.5rem;
+    }
+    .buttons .btn{
+        display: block;
+    }
+    .logo h3{
+        padding:0 2rem;
+    }
+    .logo .logos{
+        width: 85%!important;
+        grid-template-columns: auto auto;
+    }
+    .about h1{
+        font-size: 30px;
+    }
+    .woman, .man-1, .man-2{
+        position: initial;
+        width: 90%;
+    }
+    .vector, .ellipse, .rectangle{
+        display: none;
+    }
+    .woman{
+        margin-top: -13rem;
+    }
+    .man-1{
+        margin-top: -5rem;
+    }
+    .about .about-1 .right{
+        margin-top: 4rem;
+        padding: 0;
+    }
+    .about-1 div{
+        width: 90%;
+        margin: auto;
+    }
+    .portfolio{
+        height: 164.5rem;
+    }
+    .six{
+        padding-left: 2rem;
+    }
+    .eight{
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .testimonials h1{
+        font-size: 30px;
+    }
+    .container .flex{
+        display: block!important;
+        
+    }
+    .testimonials .container .flex > div{
+        width: 100%!important;
+        height: 500px;
+    }
+    .card-1 .card-img{
+        padding-top: 5rem!important;
+    }
+    .card-2 .card-img{
+        padding-top: 5.5rem!important;
+    }
+    .card-3 .card-img{
+        padding-top: 6rem!important;
+    }
+    .testimonials .flex p:first-child{
+        font-size: 18px;
+        line-height: 2rem;
+    }
+    .card-2{
+        margin: 1rem 0;
+    }
+    .cta{
+        height: 22rem;
+        margin-top: 5rem;
+    }
+    .cta .right{
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+    .cta h1{
+        font-size: 30px;
+
+    }
+    .cta .right .btn-5{
+        margin-left: 1.5rem!important;
+    }
+    .pages{
+        padding-left: 4rem;
+    }
+    .demos{
+        padding-right: 4rem;
+    }
+    .bottom {
+        display: block!important;
+        position: relative;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .bottom .left{
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 4rem;
+    }
+    .bottom .right{
+        padding-left: 2rem;
+    }
+}
+@media only screen and (max-width:375px){
+    .portfolio p{
+        font-size: 16px;
+    }
+    .testimonials .container .flex > div{
+        height: unset;
+    }
+    .testimonials .flex p:first-child{
+        font-size: 16px;
+    }
+    .digits{
+        margin-bottom: 2rem;
+    }
+    .demos{
+        padding-left: 3rem;
+    }
+    footer .resources{
+        padding-left: 6rem!important;
+        margin-top: 2rem;
+    }
+    .bottom .right{
+        padding-left: 1rem;
+    }
+    .bottom .left{
+        left: 3rem;
+    }
+    
 }
 
 
