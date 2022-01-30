@@ -46,16 +46,16 @@ header .navbar .nav-item .nav-link.active{
     padding-top: 10rem;
 }
 .hero h1{
-    font: normal 900 50px/53px var(--montserrat);
+    font: normal 500 30px/40px var(--montserrat);
     color: var(--tertiary-color);
 }
 .hero p{
-    font: normal 700 18px/27px var(--montserrat);
+    font: normal 500 16px/25px var(--montserrat);
     color: var(--secondary-color);
 }
 .hero .btn{
     font-family: var(--montserrat);
-    font-size: 15px;
+    font-size: 16px;
     width: 150px;
     height: 50px;
     background-color: var(--primary-color);
@@ -64,7 +64,7 @@ header .navbar .nav-item .nav-link.active{
     box-shadow: var(--box-shadow);
     background-color: var(--button-background);
     color: var(--secondary-color);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     width: 200px;
@@ -73,7 +73,7 @@ header .navbar .nav-item .nav-link.active{
 
 /* start logo area */
 .logo h3{
-    font: normal 600 15px/27px var(--montserrat);
+    font: normal 500 18px/27px var(--montserrat);
     color: var(--semi-color);
 }
 .logo .logos{
@@ -88,7 +88,7 @@ header .navbar .nav-item .nav-link.active{
     padding-bottom: 10rem;
 }
 .about h1{
-    font: normal 900 45px/60px var(--montserrat);
+    font: normal 550 30px/50px var(--montserrat);
     color: var(--tertiary-color);
 }
 .about-1{
@@ -142,11 +142,11 @@ header .navbar .nav-item .nav-link.active{
     padding-right: 3rem;
 }
 .about .right h4{
-    font: normal 900 20px/28px var(--montserrat);
+    font: normal 500 20px/40px var(--montserrat);
     color: var(--tertiary-color);
 }
 .about .right p{
-    font: normal 900 16px/28px var(--montserrat);
+    font: normal 600 16px/28px var(--montserrat);
     color: var(--secondary-color);
 }
 /* End about area */
@@ -160,11 +160,11 @@ header .navbar .nav-item .nav-link.active{
     background-color: var(--portfolio-bg);
 }
 .portfolio h1{
-    font: normal 900 40px/60px var(--montserrat);
+    font: normal 700 30px/40px var(--montserrat);
     color: var(--tertiary-color);
 }
 .portfolio p{
-    font: normal 600 18px/32px var(--montserrat);
+    font: normal 550 16px/32px var(--montserrat);
     color: var(--tertiary-color);
 }
 .btn-4{
@@ -231,7 +231,7 @@ header .navbar .nav-item .nav-link.active{
     padding-top: 14.5rem;
 }
 .testimonials h1{
-    font: normal 900 43px/55px var(--montserrat);
+    font: normal 500 28px/55px var(--montserrat);
     color: var(--tertiary-color);
 }
 .testimonials .flex > div{
@@ -240,15 +240,15 @@ header .navbar .nav-item .nav-link.active{
     border-radius: .3rem;
 }
 .testimonials .flex p:first-child{
-    font: normal 700 17px/32px var(--montserrat);
+    font: normal 550 15px/32px var(--montserrat);
     color: var(--secondary-color);
 }
 .testimonials .flex h3{
-    font: normal 900 20px/24px var(--montserrat);
+    font: normal 550 16px/28px var(--montserrat);
     color: var(--tertiary-color);
 }
 .testimonials .flex p:last-child{
-    font: normal 700 15px/25px var(--montserrat);
+    font: normal 500 15px/25px var(--montserrat);
     color: var(--secondary-color);
 }
 /* Testimonial area */
@@ -263,7 +263,7 @@ header .navbar .nav-item .nav-link.active{
     padding-top: 6.9rem;
 }
 .cta h1{
-    font: normal 900 45px/53px var(--montserrat);
+    font: normal 500 30px/50px var(--montserrat);
     
 }
 .cta .right{
@@ -296,13 +296,13 @@ footer .digits img{
 }
 footer .digits p{
     padding-right: 14rem;
-    font: normal 700 16px/26px var(--montserrat);
+    font: normal 550 16px/26px var(--montserrat);
     color: var(--secondary-color);
 }
 footer .row h3{
     padding-bottom: 1.6rem;
     margin-bottom: 0;
-    font: normal 900 18px/27px var(--montserrat);
+    font: normal 550 18px/27px var(--montserrat);
     color: var(--tertiary-color);
 }
 footer ul{
@@ -313,7 +313,7 @@ footer ul li:first-child{
 }
 
 footer a{
-    font: normal 600 16px/35px var(--montserrat);
+    font: normal 500 15px/35px var(--montserrat);
     color: var(--secondary-color);
 }
 footer .resources p{
@@ -332,7 +332,7 @@ footer .resources{
     margin-top: 4.8rem;
 }
 .bottom p{
-    font: normal 600 13px/27px var(--montserrat);
+    font: normal 550 14px/27px var(--montserrat);
 }
 .left p{
     color: var(--semi-color);
